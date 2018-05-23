@@ -74,12 +74,12 @@
 
 		@if index($sides, c) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--c.#{s-component()}--#{$color}```
-			 * Display a #{$color} centered #{s-component()}
+			 * @name 		```.#{s-component()}--c```
+			 * Display a centered #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--c">
+			 * 	<div class="#{s-component()} #{s-component()}--c">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -94,12 +94,12 @@
 
 		@if index($sides, t) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--t.#{s-component()}--#{$color}```
-			 * Display a #{$color} top centered #{s-component()}
+			 * @name 		```.#{s-component()}--t```
+			 * Display a top centered #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--t">
+			 * 	<div class="#{s-component()} #{s-component()}--t">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -114,12 +114,12 @@
 		}
 		@if index($sides, tl) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--tl.#{s-component()}--#{$color}```
-			 * Display a #{$color} top left #{s-component()}
+			 * @name 		```.#{s-component()}--tl```
+			 * Display a top left #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--tl">
+			 * 	<div class="#{s-component()} #{s-component()}--tl">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -132,12 +132,12 @@
 		}
 		@if index($sides, tr) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--tr.#{s-component()}--#{$color}```
-			 * Display a #{$color} top right #{s-component()}
+			 * @name 		```.#{s-component()}--tr```
+			 * Display a top right #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--tr">
+			 * 	<div class="#{s-component()} #{s-component()}--tr">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -151,12 +151,12 @@
 
 		@if index($sides, l) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--l.#{s-component()}--#{$color}```
-			 * Display a #{$color} left #{s-component()}
+			 * @name 		```.#{s-component()}--l```
+			 * Display a left #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--l">
+			 * 	<div class="#{s-component()} #{s-component()}--l">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -170,12 +170,12 @@
 		}
 		@if index($sides, r) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--r.#{s-component()}--#{$color}```
-			 * Display a #{$color} right #{s-component()}
+			 * @name 		```.#{s-component()}--r```
+			 * Display a right #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--r">
+			 * 	<div class="#{s-component()} #{s-component()}--r">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -189,12 +189,12 @@
 		}
 		@if index($sides, bl) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--bl.#{s-component()}--#{$color}```
-			 * Display a #{$color} bottom left #{s-component()}
+			 * @name 		```.#{s-component()}--bl```
+			 * Display a bottom left #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--bl">
+			 * 	<div class="#{s-component()} #{s-component()}--bl">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -207,12 +207,12 @@
 		}
 		@if index($sides, b) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--b.#{s-component()}--#{$color}```
-			 * Display a #{$color} bottom #{s-component()}
+			 * @name 		```.#{s-component()}--b```
+			 * Display a bottom #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--b">
+			 * 	<div class="#{s-component()} #{s-component()}--b">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
@@ -226,12 +226,12 @@
 		}
 		@if index($sides, br) {
 			/**
-			 * @name 		<span class="c-#{$color}">#{_start-case($color)}</span> ```.#{s-component()}--br.#{s-component()}--#{$color}```
-			 * Display a #{$color} bottom right #{s-component()}
+			 * @name 		```.#{s-component()}--br```
+			 * Display a bottom right #{s-component()}
 			 * @styleguide 		Atoms / #{_start-case(s-component())}
 			 * @example 	html
 			 * <div class="active bkg-primary" style="display: block; width: 10px; height: 10px; position: relative; margin: 50px auto;">
-			 * 	<div class="#{s-component()} #{s-component()}--#{$color} #{s-component()}--br">
+			 * 	<div class="#{s-component()} #{s-component()}--br">
 			 * 		I'm a cool tooltip
 			 * 	</div>
 			 * </div>
