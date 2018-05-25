@@ -4,7 +4,14 @@
 
 _Full stack tooltip styling supporting multiple sides and colors. Fully customizable as well._
 
-## 1.0.2  ( Fri May 25 2018 15:02:17 GMT+0200 (CEST) )
+## 1.0.2  ( Fri May 25 2018 15:02:29 GMT+0200 (CEST) )
+
+
+## Features
+  - add changelog
+  ([33953262](git@github.com:Coffeekraken/s-tooltip-component/commit/33953262b4f9f1ee439ed2d597faf6190ab65d09))
+
+
 
 
 
