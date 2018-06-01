@@ -21,7 +21,7 @@
  * @param 	{List<Color>} 		[$color=default primary secondary] 		The colors to generate
  * @param 	{List<String>} 		[$sides=tl t tr l r bl b br c] 			The sides to generate
  */
-@mixin s-tooltip-classes(
+ @mixin s-tooltip-classes(
 	$colors : default primary secondary,
 	$sides : tl t tr l r bl b br c
 ) {
@@ -126,7 +126,7 @@
 			 */
 			&.#{s-component()}--tl {
 				transform-origin:0 calc(100% + 0.5em);
-				left:0; bottom:calc(100% + 1em);
+				left:-.5em; bottom:calc(100% + 1em);
 				top: auto; right: auto;
 			}
 		}
@@ -144,7 +144,7 @@
 			 */
 			&.#{s-component()}--tr {
 				transform-origin:100% 100%;
-				right:0; bottom:calc(100% + 1em);
+				right:-.5em; bottom:calc(100% + 1em);
 				left: auto; top: auto;
 			}
 		}
@@ -201,7 +201,7 @@
 			 */
 			&.#{s-component()}--bl {
 				transform-origin:1em -1em;
-				left:0; top:calc(100% + 1em);
+				left:-.5em; top:calc(100% + 1em);
 				bottom: auto; right: auto;
 			}
 		}
@@ -238,7 +238,7 @@
 			 */
 			&.#{s-component()}--br {
 				transform-origin:calc(100% - 1em) -1em;
-				right:0; top:calc(100% + 1em);
+				right:-.5em; top:calc(100% + 1em);
 				left: auto; bottom: auto;
 			}
 		}
@@ -483,7 +483,7 @@
 					&.#{s-component()}--l {
 						@include s-bubble(
 							$side : right,
-							$align : middle,
+							$align : center,
 							$size : .5em,
 							$color : s-color($color),
 							$arrow-offset : .5em,
@@ -516,7 +516,7 @@
 					&.#{s-component()}--r {
 						@include s-bubble(
 							$side : left,
-							$align : middle,
+							$align : center,
 							$size : .5em,
 							$color : s-color($color),
 							$arrow-offset : .5em,
