@@ -24,6 +24,7 @@ Generated classes:
 - `.tooltip--active, .tooltip.active, .tooltip[active], :hover > .tooltip, .active > .tooltip, [active] > .tooltip`
 
 
+#### Parameters
 Name  |  Type  |  Description  |  Status  |  Default
 ------------  |  ------------  |  ------------  |  ------------  |  ------------
 $color  |  **{ List<Color> }**  |  The colors to generate  |  optional  |  default primary secondary
@@ -47,6 +48,7 @@ Generated classed
 - `.tooltip.active, .tooltip[active], :hover > .tooltip, .active > .tooltip, [active] > .tooltip`
 
 
+#### Parameters
 Name  |  Type  |  Description  |  Status  |  Default
 ------------  |  ------------  |  ------------  |  ------------  |  ------------
 $sides  |  **{ List<String> }**  |  The sides to generate  |  optional  |  tl t tr l r bl b br c
@@ -70,6 +72,7 @@ Generated classes:
 - `.tooltip--active, .tooltip.active, .tooltip[active], :hover > .tooltip, .active > .tooltip, [active] > .tooltip`
 
 
+#### Parameters
 Name  |  Type  |  Description  |  Status  |  Default
 ------------  |  ------------  |  ------------  |  ------------  |  ------------
 $color  |  **{ List<Color> }**  |  The colors to generate  |  optional  |  default primary secondary
