@@ -1,0 +1,30 @@
+@import 'node_modules/coffeekraken-sugar/index';
+@import '../../../index';
+
+@include s-setup(());
+@include s-init();
+@include s-classes();
+
+@include s-tooltip-classes(
+	$colors: default primary secondary
+);
+
+body {
+	padding: s-space(bigger);
+}
+
+.box {
+	width: 30px; height: 30px;
+	background: s-color(primary);
+	position: relative;
+	margin-right: 30px;
+	margin-top: 30px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+.tooltip {
+	white-space: nowrap;
+}
